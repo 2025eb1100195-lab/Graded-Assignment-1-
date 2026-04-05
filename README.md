@@ -16,7 +16,7 @@ The main objective is not just model building, but demonstrating how **feature e
 
 ---
 
-## ⚙️ Tools & Libraries
+## Tools & Libraries
 - Python  
 - pandas  
 - numpy  
@@ -25,7 +25,7 @@ The main objective is not just model building, but demonstrating how **feature e
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Option 1: Google Colab (Recommended)
 - Open the notebook using the Colab link  
@@ -33,26 +33,23 @@ The main objective is not just model building, but demonstrating how **feature e
 
 ---
 
+##  Key Steps Implemented
 
----
-
-## 🧠 Key Steps Implemented
-
-### ✔ Task 1: Baseline Model
+###  Task 1: Baseline Model
 - Minimal preprocessing (imputation + encoding)
 - KNN classifier used
 - Established initial benchmark performance
 
 ---
 
-### ✔ Task 2: Curse of Dimensionality
+###  Task 2: Curse of Dimensionality
 - Generated synthetic datasets with increasing features
 - Observed that distance differences shrink in high dimensions
 - Demonstrated why feature selection is important
 
 ---
 
-### ✔ Task 3: Numeric Preprocessing
+###  Task 3: Numeric Preprocessing
 - Applied:
   - Binning
   - Binarization
@@ -61,7 +58,7 @@ The main objective is not just model building, but demonstrating how **feature e
 
 ---
 
-### ✔ Task 4: Distance Metrics & Scaling
+###  Task 4: Distance Metrics & Scaling
 - Used KNN with:
   - No scaling
   - StandardScaler
@@ -72,7 +69,7 @@ The main objective is not just model building, but demonstrating how **feature e
 
 ---
 
-### ✔ Task 5: End-to-End Pipeline
+###  Task 5: End-to-End Pipeline
 - Built using:
   - ColumnTransformer
   - Pipeline
@@ -84,7 +81,7 @@ The main objective is not just model building, but demonstrating how **feature e
 
 ---
 
-### ✔ Task 6: Feature Extraction
+###  Task 6: Feature Extraction
 - Extracted meaningful features:
   - total_guests
   - total_nights
@@ -92,7 +89,7 @@ The main objective is not just model building, but demonstrating how **feature e
 
 ---
 
-### ✔ Task 7: Feature Construction
+###  Task 7: Feature Construction
 
 Constructed features include:
 
@@ -114,14 +111,14 @@ Constructed features include:
 
 ---
 
-### ⚠️ Avoiding Data Leakage
+###  Avoiding Data Leakage
 - Aggregated features initially computed on full dataset (risk)
 - Proper approach: compute using training data only
 - Pipeline ensures safe preprocessing (no leakage in scaling/encoding)
 
 ---
 
-### ✔ Task 8: Feature Importance & Selection
+###  Task 8: Feature Importance & Selection
 
 **Feature Importance Methods:**
 - Random Forest
@@ -137,7 +134,7 @@ Constructed features include:
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Stage | Performance |
 |------|------------|
@@ -148,7 +145,7 @@ Constructed features include:
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 - Feature engineering had the **largest impact on performance**
 - Scaling is essential for KNN and distance-based models
 - Important features include:
@@ -159,16 +156,15 @@ Constructed features include:
 
 ---
 
-## 📎 Submission Links
-- 📘 **Colab Notebook:** [PASTE YOUR LINK HERE]  
-- 📂 **GitHub Repository:** [PASTE YOUR LINK HERE]  
+##  Submission Links
+-  **Colab Notebook:** https://colab.research.google.com/drive/1KYqRAupVWlfWhZRS1Xz6SCvBhR4YvHih   
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 This project demonstrates that **well-engineered features and proper preprocessing are more impactful than complex models**, especially in real-world business problems like cancellation prediction.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Anya Sharma**
